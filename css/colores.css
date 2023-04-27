@@ -2,6 +2,7 @@
 html,body{
     margin: 0;
     width: 100%;
+    font-family: 'Quicksand', sans-serif;
 }
 
 header {
@@ -27,7 +28,6 @@ header {
   nav a {
     color: #000000;
     font-size: 20px;
-    font-family: 'Quicksand', sans-serif;
     text-decoration: none;
     font-weight: bold;
   }
@@ -54,7 +54,6 @@ header {
   .titulo-principal{
     margin: 5px 4rem;
     font-size: 50px;
-    font-family: 'Quicksand', sans-serif;
     
   }
   .texto{
@@ -63,7 +62,6 @@ header {
 .texto-principal{
     padding: 1rem 4rem 0px 4rem;
     margin: 0 0 10px;
-    font-family: 'Quicksand', sans-serif;
     font-size: 1.5rem;
 }
 .image-3{
@@ -81,12 +79,10 @@ header {
 .titulo-colores{
     margin: 1.5rem 0;
     font-size: 40px;
-    font-family: 'Quicksand', sans-serif;
 }
 .texto-colores{
     padding: 0;
     margin: 0 0 2.5rem;
-    font-family: 'Quicksand', sans-serif;
     font-size: 1.5rem;
 }
 .blanco{

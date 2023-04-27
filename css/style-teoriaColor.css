@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=DynaPuff:wght@400;500&family=Montserrat:ital,wght@0,100;1,100&family=Quicksand:wght@400;500&family=Ubuntu:wght@300;400&display=swap');
 body{
     margin: 0;
+    font-family: 'Quicksand', sans-serif;
 }
 header {
     display: flex;
@@ -25,7 +26,6 @@ header {
   nav a {
     color: #000000;
     font-size: 20px;
-    font-family: 'Quicksand', sans-serif;
     text-decoration: none;
     font-weight: bold;
   }
@@ -52,7 +52,6 @@ header {
   .titulo-principal{
     margin-left: 1rem;
     font-size: 50px;
-    font-family: 'Quicksand', sans-serif;
     text-align: center;
   }
   .texto{
@@ -60,7 +59,6 @@ header {
 }
 .texto .texto-principal{
     padding: 1rem 4rem 0px 4rem;
-    font-family: 'Quicksand', sans-serif;
     font-size: 1.5rem;
 }
 .texto .texto-principal::first-letter{

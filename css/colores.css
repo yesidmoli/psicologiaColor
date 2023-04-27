@@ -1,0 +1,218 @@
+@import url('https://fonts.googleapis.com/css2?family=DynaPuff:wght@400;500&family=Montserrat:ital,wght@0,100;1,100&family=Quicksand:wght@400;500&family=Ubuntu:wght@300;400&display=swap');
+html,body{
+    margin: 0;
+    width: 100%;
+}
+
+header {
+    display: flex;
+    align-items: center;
+  }
+  .logo {
+    width: 10rem;
+    height: auto;
+    padding: 0px 0px 0px 100px;
+  }
+  
+  nav {
+    position: relative;
+    margin-left: 50px;
+  }
+  
+  nav li {
+    display: inline;
+    margin: 0 0 0 15px;
+  }
+  
+  nav a {
+    color: #000000;
+    font-size: 20px;
+    font-family: 'Quicksand', sans-serif;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  .menu-1:hover{
+    color: #ff0e07; 
+  }
+  .menu-2:hover{
+    color: #156c30; 
+  }
+  .menu-3:hover{
+    color: #fc5d00; 
+  }
+  .menu-4:hover{
+    color: #0075ff;
+  }
+  hr{
+    margin: 0px 4rem 0px 4rem;
+    background: linear-gradient(to right, red, orange, yellow, green, blue, indigo, violet);
+    opacity: 0.3;
+    height: 5px;
+    border: none;
+
+  }
+  .titulo-principal{
+    margin: 5px 4rem;
+    font-size: 50px;
+    font-family: 'Quicksand', sans-serif;
+    
+  }
+  .texto{
+    width: 100%;
+}
+.texto-principal{
+    padding: 1rem 4rem 0px 4rem;
+    margin: 0 0 10px;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 1.5rem;
+}
+.image-3{
+    display: flex;
+    justify-content: center;
+}
+.image-3 img{
+    width: 60%;
+    height: auto;
+}
+.colores{
+    padding: 1rem 4rem ;
+    margin: 0 0 10px;
+}
+.titulo-colores{
+    margin: 1.5rem 0;
+    font-size: 40px;
+    font-family: 'Quicksand', sans-serif;
+}
+.texto-colores{
+    padding: 0;
+    margin: 0 0 2.5rem;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 1.5rem;
+}
+.blanco{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 10rem;
+    box-shadow: 0 0 5px rgba(123, 122, 122, 0.5);
+
+}
+.blanco h1 {
+    color: black;
+    font-size: 3rem;
+}
+.amarillo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 10rem;
+    background-color: #ffd822;
+}
+.amarillo h1, .rojo h1, .naranja h1, .azul h1, .verde h1,.morado h1,.negro h1 {
+    color: white;
+    font-size: 3rem;
+}
+.rojo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 10rem;
+    background-color: #fc2b16;
+}
+
+.naranja{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 10rem;
+    background-color: #f6950a;
+}
+
+.azul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 10rem;
+    background-color: #006cff;
+}
+
+.verde{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 10rem;
+    background-color: #008000;
+}
+.morado{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 10rem;
+    background-color: #6f3bea;
+}
+.negro{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 10rem;
+    background-color: black;
+}
+#cambio:hover{
+    color: #0075ff;
+    text-decoration: none;
+}
+footer {
+    text-align: center; 
+    padding: 20px 0; 
+  }
+  
+  #redes-sociales {
+    display: inline;
+  }  
+  #imgIcon{
+    width: 3%;
+  }
+  @media (max-width: 768px) {
+    header {
+      display: block;
+    }
+    .logo {
+      width: 8rem;
+      padding: 0px 0px 0px 20px;
+    }
+    nav {
+      margin: 0;
+    }
+    .texto .texto-principal{
+        padding: 0px 2rem;
+        width: 100%;
+    }
+    .titulo-principal{
+        width: 100%;
+        font-size: 2.2rem;
+    }
+    .colores{
+        padding: 0px 2rem;
+        width: 100%;
+    }
+    .titulo-colores{
+        width: 100%;
+        font-size: 2.2rem;
+    }
+    p .texto-colores{
+        padding: 0px 2rem;
+        width: 100%;
+    }
+    .image-3 img{
+        width: 100%;
+        padding: 0px ;
+    }
+  }

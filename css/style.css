@@ -105,6 +105,9 @@ footer {
     .texto .texto-principal{
         padding: 0px 1rem;
     }
+    #imgIcon{
+      width: 10%;
+    }
   }
   
   

@@ -137,4 +137,7 @@ footer {
     figure img{
         width: 100%;
     }
+    #imgIcon{
+      width: 10%;
+    }
   }
